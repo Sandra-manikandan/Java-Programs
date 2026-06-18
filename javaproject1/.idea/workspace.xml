@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8ce16f2b-e763-4790-914e-f6bad21f9d07" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/mysql_connector_j_9_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/mysql_connector_j_9_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Program/src/JDBC/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Program/src/JDBC/StudentDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Program/src/JDBC/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/Internship.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/Internship.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Program/Programs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Program/Programs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Program/src/Collections/EmployeMangement.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Program/src/JDBC/EmployeMangement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Program/src/Collections/EmployeServiceMangement.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Program/src/JDBC/EmployeServiceMangement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Program/src/Collections/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Program/src/JDBC/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Program/src/Collections/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Program/src/JDBC/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Program/src/Collections/Service.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Program/src/Collections/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Program/src/JDBC/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Program/src/Collections/StudentDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Program/src/Collections/StudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Program/src/Collections/WordFrequency.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Program/src/JDBC/WordFrequency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Program/src/Collections/WordFrequencyCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Program/src/JDBC/WordFrequencyCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Programs/Service.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Programs/Strings/Permutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/Programs/Strings/Permutation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Programs/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Programs/StudentDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Programs/StudentService.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3FG4dAEbMjUVODDLyVWX2wPrktM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.javaproject1 [clean,verify,install].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/sandr/OneDrive/Desktop/Internship/javaproject1/src/main/java/org/example/Main.java"
+  }
+}]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean verify install" />
+    </option>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.25134.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ce16f2b-e763-4790-914e-f6bad21f9d07" name="Changes" comment="" />
+      <created>1781688159027</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1781688159027</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

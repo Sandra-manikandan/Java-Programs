@@ -1,25 +1,27 @@
+package JDBC;
+import java.sql.*;
 import java.util.*;
-public class StudentDetails {
+
+public class EmployeMangement {
     public static void main(String[] args)
     {
-       Scanner sc=new Scanner(System.in);
-       ArrayList<Student> student= new ArrayList<Student>();
-        StudentService service=new StudentService();
+        Scanner sc=new Scanner(System.in);
+        EmployeServiceMangement service=new EmployeServiceMangement();
         while(true) {
-            System.out.print("1.Insert\n2.update\n3.Delete\n4.Display\n5.exit \nEnter a Option:");
+            System.out.print("1.Add Employee \n2.Highest Salary\n3.Search\n4.Display\n5.exit \nEnter a Option:");
             int choice = sc.nextInt();
             switch (choice) {
                 case 1:
-                    service.addDetails(student);
+                    service.EmployeAddDetails();
                     break;
                 case 2:
-                    service.update(student);
+                    service.HighestSalary();
                     break;
                 case 3:
-                    service.delete(student);
+                    service.EmployeeSearch();
                     break;
                 case 4:
-                        service.display(student);
+                    service.EmployeeDisplay();
                     break;
                 case 5:
                     return;

@@ -1,4 +1,4 @@
-import java.util.*;
+package JDBC;
 public class Student {
         String name;
         int roll_no;

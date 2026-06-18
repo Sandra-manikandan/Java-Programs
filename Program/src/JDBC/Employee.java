@@ -1,10 +1,10 @@
-package Collections;
+package JDBC;
 
 public class Employee {
         int id;
         String name;
-        double salary;
-    Employee(int  id, String name, double salary){
+        int salary;
+    Employee(int  id,String name,int salary){
         this.id=id;
         this.name=name;
         this.salary=salary;

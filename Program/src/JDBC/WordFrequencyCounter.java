@@ -1,4 +1,4 @@
-package Collections;
+package JDBC;
 import java.util.*;
 
 public class WordFrequencyCounter {

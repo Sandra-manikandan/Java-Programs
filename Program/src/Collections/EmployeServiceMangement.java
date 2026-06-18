@@ -1,10 +1,14 @@
 package Collections;
 
-import java.util.*;
+import JDBC.Employee;
+import JDBC.EmployeeService;
+
+import java.util.ArrayList;
+import java.util.Scanner;
 
 public class EmployeServiceMangement implements EmployeeService {
     Scanner sc= new Scanner(System.in);
-    public void EmployeAddDetails(ArrayList<Employee> employe){
+    public void EmployeAddDetails(ArrayList<JDBC.Employee> employe){
         System.out.print("Enter Employee id:");
         int emp_id= sc.nextInt();
         sc.nextLine();
@@ -13,15 +17,15 @@ public class EmployeServiceMangement implements EmployeeService {
         System.out.print("Enter Salary:");
         double salary = sc.nextDouble();
         System.out.println("Inserted Successfully");
-        Employee emp=new Employee(emp_id,name,salary);
+        JDBC.Employee emp=new JDBC.Employee(emp_id,name,salary);
         employe.add(emp);
     }
 
-    public void HighestSalary(ArrayList<Employee> employee){
+    public void HighestSalary(ArrayList<JDBC.Employee> employee){
         double highSalary=employee.get(0).salary;
-        Employee tempemp;
+        JDBC.Employee tempemp;
         tempemp=employee.get(0);
-        for(Employee emp:employee){
+        for(JDBC.Employee emp:employee){
             if(emp.salary>highSalary){
                 highSalary=emp.salary;
                 tempemp=emp;
@@ -30,10 +34,10 @@ public class EmployeServiceMangement implements EmployeeService {
         System.out.println(tempemp.name + "has Highest Salary:"+highSalary);
     }
 
-    public void EmployeeSearch(ArrayList<Employee> employee){
+    public void EmployeeSearch(ArrayList<JDBC.Employee> employee){
         System.out.print("Enter Employee id:");
         int empId=sc.nextInt();
-        for(Employee emp:employee){
+        for(JDBC.Employee emp:employee){
             if(emp.id==empId){
                 System.out.println("Name:"+ emp.name+"Salary:"+emp.salary);
                 return;
@@ -43,7 +47,7 @@ public class EmployeServiceMangement implements EmployeeService {
 
     }
 
-    public void EmployeeDisplay(ArrayList<Employee> employe){
+    public void EmployeeDisplay(ArrayList<JDBC.Employee> employe){
         for(Employee emp:employe){
                 System.out.println("Id:"+emp.id+" Name:"+ emp.name+" Salary:"+emp.salary);
         }

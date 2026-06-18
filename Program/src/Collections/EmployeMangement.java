@@ -1,4 +1,7 @@
 package Collections;
+import JDBC.EmployeServiceMangement;
+import JDBC.Employee;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -6,7 +9,7 @@ public class EmployeMangement {
     public static void main(String[] args)
     {
         Scanner sc=new Scanner(System.in);
-        ArrayList<Employee> employe= new ArrayList<Employee>();
+        ArrayList<JDBC.Employee> employe= new ArrayList<Employee>();
         EmployeServiceMangement service=new EmployeServiceMangement();
         while(true) {
             System.out.print("1.Add Employee \n2.Highest Salary\n3.Search\n4.Display\n5.exit \nEnter a Option:");
